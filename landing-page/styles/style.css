@@ -39,7 +39,7 @@ header img{
 }
 
 form{
-    padding: 10px;
+    padding: 20px;
     width: 400px;
     height: calc(100% + 30px);
     float: right;
@@ -95,6 +95,11 @@ form p{
     width: 344px;
     height: 55px;
     border: 1px solid #ccc;
+    padding: 8px 10px 8px 10px;
+}
+
+.input-container input:focus{
+    outline: 0;
 }
 
 form .input-submit-container{
