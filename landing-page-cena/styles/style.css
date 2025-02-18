@@ -1,0 +1,32 @@
+header{
+    width: 100%;
+    padding: 10px 2%;
+    background-color: #d6d6d6;
+
+    .container-logo{
+        max-width: 1280px;
+        margin: 0 auto;
+        overflow: auto; /* This "cleans" the float */
+
+        .logo{
+            
+            width: 160px;
+            height: 70px;
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-position: center;
+
+            &#logo1{
+                float: left;
+                background-image: url("../images/logo1.png");
+            }
+
+            &#logo2{
+                float: right;
+                background-image: url("../images/logo2.png");
+            }
+
+        }
+
+    }
+}

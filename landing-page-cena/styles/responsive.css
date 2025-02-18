@@ -1,0 +1,14 @@
+@media screen and (max-width: 510px){
+    
+    header{
+        text-align: center;
+    }
+
+    .logo{
+        float: none;
+        display: inline-block;
+        flex-direction: column;
+        background-color: blue;
+    }
+
+}
