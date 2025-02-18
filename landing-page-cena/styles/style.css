@@ -9,7 +9,6 @@ header{
         overflow: auto; /* This "cleans" the float */
 
         .logo{
-            
             width: 160px;
             height: 70px;
             background-repeat: no-repeat;
@@ -25,8 +24,6 @@ header{
                 float: right;
                 background-image: url("../images/logo2.png");
             }
-
         }
-
     }
 }
