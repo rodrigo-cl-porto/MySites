@@ -1,11 +1,30 @@
+@media screen and (max-width: 960px) {
+
+    section.cover-form{
+        padding: 40px 0;
+        text-align: center;
+
+        main{
+            height: 100%;
+            width: 96%;
+            max-width: 400px;
+            position: static;
+            display: inline-block;
+        }
+    }
+
+}
+
 @media screen and (max-width: 510px){
-    
+
     header{
         text-align: center;
 
         .logo{
             float: none;
             display: block;
+            background-color: green; /* test */
         }
     }
+    
 }
