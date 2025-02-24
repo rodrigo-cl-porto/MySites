@@ -1,7 +1,7 @@
 header{
     width: 100%;
     padding: 10px 2% 40px 2%;
-    background-color:rgb(180, 180, 180);
+    background-color:rgb(200, 200, 200);
 
     .container-logo{
         max-width: 1280px;
@@ -115,5 +115,59 @@ section.chamada{
     p{
         margin-top: 10px;
         font-size: 18px;
+    }
+}
+
+section.mosaico{
+
+    article{
+        background-color: #2e7dba;
+        display: flex;
+
+        p{
+            width: 30%;
+            padding: 60px 40px;
+            color: white;
+            vertical-align: middle;
+        }
+
+        .mosaico-img{
+            background-position: center;
+            background-size: cover;
+            width: 70%;
+        }
+
+        & #mosaico1{
+            background-image: url('../images/mosaico1.jpg');
+        }
+        & #mosaico2{
+            background-image: url('../images/mosaico2.jpg');
+        }
+        & #mosaico3{
+            background-image: url('../images/mosaico3.jpg');
+        }
+        & #mosaico4{
+            background-image: url('../images/mosaico4.jpg');
+        }
+
+    }
+
+    article:nth-child(even){
+        flex-direction: row-reverse;
+    }
+}
+
+footer{
+    background-color: rgb(200, 200, 200);
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+
+    img{
+        width: 120px;
+    }
+
+    p{
+        margin-top: 8px;
     }
 }

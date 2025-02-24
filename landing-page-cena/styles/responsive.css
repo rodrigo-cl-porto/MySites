@@ -1,22 +1,36 @@
 @media screen and (max-width: 960px) {
-
     section.cover-form{
-        padding: 40px 0;
         text-align: center;
 
         main{
-            height: 100%;
             width: 96%;
             max-width: 400px;
-            position: static;
-            display: inline-block;
+            left: 50%;
+            transform: translateX(-50%);
         }
     }
+}
 
+@media screen and (max-width: 768px) {
+    section.mosaico{
+        article{
+            flex: none;
+            display: block;
+
+            .mosaico-img{
+                height: 400px;
+                width: 100%;
+            }
+
+            p{
+                width: 100%;
+                text-align: justify;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 510px){
-
     header{
         text-align: center;
 
@@ -26,5 +40,4 @@
             background-color: green; /* test */
         }
     }
-    
 }
