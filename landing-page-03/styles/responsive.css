@@ -1,0 +1,54 @@
+@media screen and (max-width: 768px){
+
+    header{
+        nav{
+            display: block;
+        }
+
+        .chamada{
+            max-width: none;
+            width: 100%;
+            text-align: center;
+            float: none;
+            margin: 100px 0;
+
+            h1{
+                font-size: 30px;
+                padding: 0;
+            }
+        }
+    }
+
+    section.sessao1{
+        padding: 40px 2%;
+        height: auto;
+        text-align: center;
+        
+        .texto-sessao1{
+            margin-top: 0;
+            position: static;
+            float: none;
+            padding-left: 0;
+            display:inline-block;
+            width: 100%;
+
+            ul {
+                display: inline-block;
+                margin-top: 20px;
+
+                li{
+                    float: none;
+                    text-align: left;
+                }
+            }
+
+            .btn1-texto{
+                display: inline-block;
+            }
+        }
+
+        .device-sessao1{
+            display: none;
+        } 
+    }
+}

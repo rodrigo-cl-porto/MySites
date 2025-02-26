@@ -1,11 +1,12 @@
 header{
     width: 100%;
     height: 90vh;
-    max-height: 700px;
+    /*max-height: 700px;*/
     padding: 40px 2%;
     background-image: url('../media/capa-min.png');
     background-size: cover;
     background-position: center;
+    font-weight: 300;
 
     .logo{
         width: 160px;
@@ -17,7 +18,6 @@ header{
     nav{
         max-width: 1280px;
         margin: 0 auto;
-
         float: right;
 
         ul{
@@ -32,18 +32,18 @@ header{
                     color: white;
                 }
             }
-        }
-        
+        }  
     }
 
     .chamada{
         clear: left;
         float: right;
-        margin: 45px;
+        margin: 100px 0;
         max-width: 600px;
 
         h1{
             font-size: 40px;
+            font-weight: 300;
             color: white;
             font-weight: normal;
         }
@@ -54,4 +54,71 @@ header{
             margin-top: 10px;
         }
     }
+}
+
+.sessao1{
+    width: 100%;
+    height: 900px;
+    background-color: #472562;
+    padding: 0 2%;
+    height: 400px;
+
+    .container{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .texto-sessao1{
+        float: left;
+        width: 50%;
+        color: white;
+        margin-top: 40px;
+        padding-left: 80px;
+        position: relative;
+        left: 45px;
+        
+        h1{
+            font-size: 26px;
+            font-weight: 300;
+        }
+
+        p{
+            margin-top: 20px;
+            font-size: 15px;
+        }
+
+        ul{
+            font-size: 15px;
+            list-style-position: inside;
+
+            li{
+                width: 100%;
+                margin-top: 8px;
+            }
+        }
+
+        .btn1-texto{
+            margin-top: 30px;
+            background-color: #ff703d;
+            width: 165px;
+            height: 44px;
+            color: white;
+            cursor: pointer;
+            text-align: center;
+            border-radius: 30px;
+            line-height: 44px;
+        }
+    }
+
+    .device-sessao1{
+        float: left;
+        width: 50%;
+        height: 430px;
+        background-image: url('../media/device.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        top: -30px;
+    }
+
 }

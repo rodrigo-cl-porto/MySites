@@ -9,3 +9,7 @@ html, body{
     height: 100%;
     overflow: auto;
 }
+
+.clear{
+    clear: both;
+}
