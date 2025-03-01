@@ -96,4 +96,63 @@
     .sessao2{
         padding: 40px 2%;
     }
+
+    .sessao4{
+
+        .container{
+            text-align: center;
+            display: inline-block;
+        }
+
+        .form{
+            
+            float: none;
+            width: 100%;
+
+            p{
+                display: inline-block;
+                float: none;
+            }
+        }
+
+        .map-wrapper{
+            float: none;
+            width: 100%;
+            margin-top: 40px;
+            padding: 0 4%;
+
+            .map-wrapper3{
+                display: inline-block;
+                max-width: none;
+                width: 80%;
+                padding-top: 80%;
+
+                .map-wrapper2{
+                    padding-top: 0;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 580px) {
+    
+    .sessao2 img{
+        top: 10px;
+        margin-top: 20px;
+    }
+
+    .sessao3{
+
+        .part1{
+            width: 100%;
+            padding: 40px 0;
+        }
+
+        .part2{
+            width: 100%;
+            padding: 40px 0;
+        }
+    }
 }
