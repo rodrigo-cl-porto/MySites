@@ -33,7 +33,6 @@
                 left: 0;
                 top: 40px;
                 list-style-type: none;
-
                 opacity: 0;
                 transition: 1s;
 
@@ -59,7 +58,6 @@
             display: block;
             opacity: 1;
         }
-
     }
 
     section.sessao1{
