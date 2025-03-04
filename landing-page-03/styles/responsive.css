@@ -1,6 +1,5 @@
 @media screen and (max-width:830px){
-
-    header .chamada{
+    body > header .chamada{
         max-width: none;
         width: 100%;
         text-align: center;
@@ -15,8 +14,7 @@
 }
 
 @media screen and (max-width: 768px){
-
-    header{
+    body > header{
         nav{
             display: block;
             height: 32px;
@@ -98,14 +96,10 @@
     }
 
     .sessao4{
+        text-align: center;
+        display: inline-block;
 
-        .container{
-            text-align: center;
-            display: inline-block;
-        }
-
-        .form{
-            
+        .form-wrapper{
             float: none;
             width: 100%;
 
@@ -113,6 +107,11 @@
                 display: inline-block;
                 float: none;
             }
+
+            input[type=submit]{
+                margin: 0 auto;
+            }
+
         }
 
         .map-wrapper{
@@ -121,16 +120,8 @@
             margin-top: 40px;
             padding: 0 4%;
 
-            .map-wrapper3{
-                display: inline-block;
+            iframe#map{
                 max-width: none;
-                width: 80%;
-                padding-top: 80%;
-
-                .map-wrapper2{
-                    padding-top: 0;
-                    height: 100%;
-                }
             }
         }
     }
@@ -153,6 +144,19 @@
         .part2{
             width: 100%;
             padding: 40px 0;
+        }
+    }
+
+    body > footer{
+        text-align: center;
+    
+        p:nth-oftype(1){
+            float: none;
+        }
+    
+        p:nth-oftype(2){
+            float: none;
+            margin-top: 8px;
         }
     }
 }
